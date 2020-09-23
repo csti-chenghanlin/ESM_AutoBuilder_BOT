@@ -1,0 +1,13 @@
+kind: pipeline
+# type: exec
+name: default
+
+platform:
+  os: linux
+
+steps:
+- name: greeting
+  commands:
+  - echo "test1"
+  - echo "test2"
+  - echo "test2"
